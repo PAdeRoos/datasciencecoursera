@@ -1,0 +1,41 @@
+Github:
+paul.de.roos@isatis-business-solutions.nl
+Abusimbel1
+
+Unfuddle:
+pdroos
+Abusimbel1
+
+Make a local copy:
+-open Git Bash
+$ mkdir ~/someDirName
+$ cd ~/someDirName
+$ git init
+$ git remote add origin https://github.com/myUsername/test-repo.git
+
+cloning:
+-fork first
+$ git clone https://github.com/myUsername/repoName.git
+
+
+adding files to index:
+git add
+just the deleted or renamed files:
+git add -u
+all files:
+git add -a
+
+commit to local repo:
+git commit -m "message"
+
+commit to remote dir:
+git push
+
+create branch:
+git checkout -b branchname
+
+see which branch you're on:
+-git branch
+
+switch back to master:
+-git checkout master
